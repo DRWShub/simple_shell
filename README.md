@@ -25,7 +25,7 @@ in the terminal.
 Like other shells, hsh  is used by given it commands. Every hsh  command follows the same general syntax: `command name {arguments}`. The command is executed by writing the name of the command followed by any arguments.
 
 ```
-echo Hello hsh 
+echo Hello hsh
 ```
 
 Above will run the `echo` command, which will write its arguments `Hello hsh ` to  the standard output.
@@ -102,8 +102,7 @@ To exit out of the shell, the user may use the `exit` builtin.
 exit
 ```
 
-#### Exiting commands and hsh 
-
+#### Exiting commands and hsh
 ------
 
 To exit out of a process or command, `ctrl c` is used. Control-C interrupts a process and causes it to abort.
